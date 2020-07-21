@@ -204,7 +204,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>13</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -234,7 +234,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>12</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -247,7 +247,7 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 75</value>
+    <value>654, 28</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 20</value>
@@ -268,7 +268,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>11</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -280,7 +280,7 @@
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 29</value>
+    <value>259, 29</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 20</value>
@@ -301,7 +301,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>10</value>
   </data>
   <data name="cmb_MainMenu_Tag.Location" type="System.Drawing.Point, System.Drawing">
     <value>91, 29</value>
@@ -322,10 +322,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cmb_MainMenu_Tag.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>9</value>
   </data>
   <data name="cmb_MainMenu_ProductName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 76</value>
+    <value>695, 29</value>
   </data>
   <data name="cmb_MainMenu_ProductName.Size" type="System.Drawing.Size, System.Drawing">
     <value>301, 20</value>
@@ -343,10 +343,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cmb_MainMenu_ProductName.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>8</value>
   </data>
   <data name="cmb_MainMenu_MethodOfPayment.Location" type="System.Drawing.Point, System.Drawing">
-    <value>398, 29</value>
+    <value>326, 29</value>
   </data>
   <data name="cmb_MainMenu_MethodOfPayment.Size" type="System.Drawing.Size, System.Drawing">
     <value>301, 20</value>
@@ -364,6 +364,201 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cmb_MainMenu_MethodOfPayment.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_MainMenu_regist.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="btn_MainMenu_regist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 503</value>
+  </data>
+  <data name="btn_MainMenu_regist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 29</value>
+  </data>
+  <data name="btn_MainMenu_regist.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btn_MainMenu_regist.Text" xml:space="preserve">
+    <value>登録</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_regist.Name" xml:space="preserve">
+    <value>btn_MainMenu_regist</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_regist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_regist.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_regist.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btn_MainMenu_update.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="btn_MainMenu_update.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 503</value>
+  </data>
+  <data name="btn_MainMenu_update.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 29</value>
+  </data>
+  <data name="btn_MainMenu_update.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btn_MainMenu_update.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_update.Name" xml:space="preserve">
+    <value>btn_MainMenu_update</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_update.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_update.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_update.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_MainMenu_delete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="btn_MainMenu_delete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 503</value>
+  </data>
+  <data name="btn_MainMenu_delete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 29</value>
+  </data>
+  <data name="btn_MainMenu_delete.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btn_MainMenu_delete.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_delete.Name" xml:space="preserve">
+    <value>btn_MainMenu_delete</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_delete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_delete.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_delete.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_MainMenu_Tag.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="btn_MainMenu_Tag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 503</value>
+  </data>
+  <data name="btn_MainMenu_Tag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 29</value>
+  </data>
+  <data name="btn_MainMenu_Tag.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btn_MainMenu_Tag.Text" xml:space="preserve">
+    <value>タグ管理</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_Tag.Name" xml:space="preserve">
+    <value>btn_MainMenu_Tag</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_Tag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_Tag.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_Tag.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_MainMenu_search.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="btn_MainMenu_search.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1019, 24</value>
+  </data>
+  <data name="btn_MainMenu_search.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 29</value>
+  </data>
+  <data name="btn_MainMenu_search.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btn_MainMenu_search.Text" xml:space="preserve">
+    <value>検索</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_search.Name" xml:space="preserve">
+    <value>btn_MainMenu_search</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_search.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_search.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_MainMenu_search.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_MainMenu_SumTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_MainMenu_SumTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="lbl_MainMenu_SumTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>905, 484</value>
+  </data>
+  <data name="lbl_MainMenu_SumTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="lbl_MainMenu_SumTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lbl_MainMenu_SumTitle.Text" xml:space="preserve">
+    <value>合計金額：</value>
+  </data>
+  <data name="&gt;&gt;lbl_MainMenu_SumTitle.Name" xml:space="preserve">
+    <value>lbl_MainMenu_SumTitle</value>
+  </data>
+  <data name="&gt;&gt;lbl_MainMenu_SumTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_MainMenu_SumTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_MainMenu_SumTitle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_MainMenu_Sum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_MainMenu_Sum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9.75pt</value>
+  </data>
+  <data name="lbl_MainMenu_Sum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>985, 484</value>
+  </data>
+  <data name="lbl_MainMenu_Sum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="lbl_MainMenu_Sum.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lbl_MainMenu_Sum.Text" xml:space="preserve">
+    <value>XXXX</value>
+  </data>
+  <data name="&gt;&gt;lbl_MainMenu_Sum.Name" xml:space="preserve">
+    <value>lbl_MainMenu_Sum</value>
+  </data>
+  <data name="&gt;&gt;lbl_MainMenu_Sum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_MainMenu_Sum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_MainMenu_Sum.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

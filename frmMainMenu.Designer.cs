@@ -44,6 +44,13 @@
             this.cmb_MainMenu_Tag = new System.Windows.Forms.ComboBox();
             this.cmb_MainMenu_ProductName = new System.Windows.Forms.ComboBox();
             this.cmb_MainMenu_MethodOfPayment = new System.Windows.Forms.ComboBox();
+            this.btn_MainMenu_regist = new System.Windows.Forms.Button();
+            this.btn_MainMenu_update = new System.Windows.Forms.Button();
+            this.btn_MainMenu_delete = new System.Windows.Forms.Button();
+            this.btn_MainMenu_Tag = new System.Windows.Forms.Button();
+            this.btn_MainMenu_search = new System.Windows.Forms.Button();
+            this.lbl_MainMenu_SumTitle = new System.Windows.Forms.Label();
+            this.lbl_MainMenu_Sum = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -139,11 +146,58 @@
             resources.ApplyResources(this.cmb_MainMenu_MethodOfPayment, "cmb_MainMenu_MethodOfPayment");
             this.cmb_MainMenu_MethodOfPayment.Name = "cmb_MainMenu_MethodOfPayment";
             // 
+            // btn_MainMenu_regist
+            // 
+            resources.ApplyResources(this.btn_MainMenu_regist, "btn_MainMenu_regist");
+            this.btn_MainMenu_regist.Name = "btn_MainMenu_regist";
+            this.btn_MainMenu_regist.UseVisualStyleBackColor = true;
+            // 
+            // btn_MainMenu_update
+            // 
+            resources.ApplyResources(this.btn_MainMenu_update, "btn_MainMenu_update");
+            this.btn_MainMenu_update.Name = "btn_MainMenu_update";
+            this.btn_MainMenu_update.UseVisualStyleBackColor = true;
+            // 
+            // btn_MainMenu_delete
+            // 
+            resources.ApplyResources(this.btn_MainMenu_delete, "btn_MainMenu_delete");
+            this.btn_MainMenu_delete.Name = "btn_MainMenu_delete";
+            this.btn_MainMenu_delete.UseVisualStyleBackColor = true;
+            // 
+            // btn_MainMenu_Tag
+            // 
+            resources.ApplyResources(this.btn_MainMenu_Tag, "btn_MainMenu_Tag");
+            this.btn_MainMenu_Tag.Name = "btn_MainMenu_Tag";
+            this.btn_MainMenu_Tag.UseVisualStyleBackColor = true;
+            // 
+            // btn_MainMenu_search
+            // 
+            resources.ApplyResources(this.btn_MainMenu_search, "btn_MainMenu_search");
+            this.btn_MainMenu_search.Name = "btn_MainMenu_search";
+            this.btn_MainMenu_search.UseVisualStyleBackColor = true;
+            // 
+            // lbl_MainMenu_SumTitle
+            // 
+            resources.ApplyResources(this.lbl_MainMenu_SumTitle, "lbl_MainMenu_SumTitle");
+            this.lbl_MainMenu_SumTitle.Name = "lbl_MainMenu_SumTitle";
+            // 
+            // lbl_MainMenu_Sum
+            // 
+            resources.ApplyResources(this.lbl_MainMenu_Sum, "lbl_MainMenu_Sum");
+            this.lbl_MainMenu_Sum.Name = "lbl_MainMenu_Sum";
+            // 
             // frmMainMenu
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.lbl_MainMenu_Sum);
+            this.Controls.Add(this.lbl_MainMenu_SumTitle);
+            this.Controls.Add(this.btn_MainMenu_search);
+            this.Controls.Add(this.btn_MainMenu_Tag);
+            this.Controls.Add(this.btn_MainMenu_delete);
+            this.Controls.Add(this.btn_MainMenu_update);
+            this.Controls.Add(this.btn_MainMenu_regist);
             this.Controls.Add(this.cmb_MainMenu_MethodOfPayment);
             this.Controls.Add(this.cmb_MainMenu_ProductName);
             this.Controls.Add(this.cmb_MainMenu_Tag);
@@ -176,6 +230,13 @@
         private System.Windows.Forms.ComboBox cmb_MainMenu_Tag;
         private System.Windows.Forms.ComboBox cmb_MainMenu_ProductName;
         private System.Windows.Forms.ComboBox cmb_MainMenu_MethodOfPayment;
+        private System.Windows.Forms.Button btn_MainMenu_regist;
+        private System.Windows.Forms.Button btn_MainMenu_update;
+        private System.Windows.Forms.Button btn_MainMenu_delete;
+        private System.Windows.Forms.Button btn_MainMenu_Tag;
+        private System.Windows.Forms.Button btn_MainMenu_search;
+        private System.Windows.Forms.Label lbl_MainMenu_SumTitle;
+        private System.Windows.Forms.Label lbl_MainMenu_Sum;
     }
 }
 
