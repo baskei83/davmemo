@@ -40,17 +40,17 @@
             // 
             this.lbl_TagManagerRegist_regist.AutoSize = true;
             this.lbl_TagManagerRegist_regist.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.lbl_TagManagerRegist_regist.Location = new System.Drawing.Point(49, 77);
+            this.lbl_TagManagerRegist_regist.Location = new System.Drawing.Point(38, 80);
             this.lbl_TagManagerRegist_regist.Name = "lbl_TagManagerRegist_regist";
-            this.lbl_TagManagerRegist_regist.Size = new System.Drawing.Size(48, 20);
+            this.lbl_TagManagerRegist_regist.Size = new System.Drawing.Size(61, 20);
             this.lbl_TagManagerRegist_regist.TabIndex = 0;
-            this.lbl_TagManagerRegist_regist.Text = "登録：";
+            this.lbl_TagManagerRegist_regist.Text = "タグ名：";
             // 
             // lbl_TagManagerRegist_remarks
             // 
             this.lbl_TagManagerRegist_remarks.AutoSize = true;
             this.lbl_TagManagerRegist_remarks.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.lbl_TagManagerRegist_remarks.Location = new System.Drawing.Point(49, 182);
+            this.lbl_TagManagerRegist_remarks.Location = new System.Drawing.Point(49, 185);
             this.lbl_TagManagerRegist_remarks.Name = "lbl_TagManagerRegist_remarks";
             this.lbl_TagManagerRegist_remarks.Size = new System.Drawing.Size(48, 20);
             this.lbl_TagManagerRegist_remarks.TabIndex = 1;
