@@ -105,6 +105,7 @@
             this.Controls.Add(this.lbl_TagManagerUpdate_remarks);
             this.Controls.Add(this.lbl_TagManagerUpdate_update);
             this.Name = "frmTagManagerUpdate";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "タグ管理画面 - 更新";
             this.ResumeLayout(false);
             this.PerformLayout();

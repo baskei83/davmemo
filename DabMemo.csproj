@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmRegist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegist.Designer.cs">
+      <DependentUpon>frmRegist.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTagManager.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,8 +76,17 @@
     <Compile Include="frmTagManagerUpdate.Designer.cs">
       <DependentUpon>frmTagManagerUpdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdate.Designer.cs">
+      <DependentUpon>frmUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmRegist.resx">
+      <DependentUpon>frmRegist.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmTagManager.resx">
       <DependentUpon>frmTagManager.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmTagManagerUpdate.resx">
       <DependentUpon>frmTagManagerUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdate.resx">
+      <DependentUpon>frmUpdate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

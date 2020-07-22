@@ -182,6 +182,7 @@
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmTagManager";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "タグ管理";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

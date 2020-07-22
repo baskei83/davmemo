@@ -151,24 +151,28 @@
             resources.ApplyResources(this.btn_MainMenu_regist, "btn_MainMenu_regist");
             this.btn_MainMenu_regist.Name = "btn_MainMenu_regist";
             this.btn_MainMenu_regist.UseVisualStyleBackColor = true;
+            this.btn_MainMenu_regist.Click += new System.EventHandler(this.btn_MainMenu_regist_Click);
             // 
             // btn_MainMenu_update
             // 
             resources.ApplyResources(this.btn_MainMenu_update, "btn_MainMenu_update");
             this.btn_MainMenu_update.Name = "btn_MainMenu_update";
             this.btn_MainMenu_update.UseVisualStyleBackColor = true;
+            this.btn_MainMenu_update.Click += new System.EventHandler(this.btn_MainMenu_update_Click);
             // 
             // btn_MainMenu_delete
             // 
             resources.ApplyResources(this.btn_MainMenu_delete, "btn_MainMenu_delete");
             this.btn_MainMenu_delete.Name = "btn_MainMenu_delete";
             this.btn_MainMenu_delete.UseVisualStyleBackColor = true;
+            this.btn_MainMenu_delete.Click += new System.EventHandler(this.btn_MainMenu_delete_Click);
             // 
             // btn_MainMenu_Tag
             // 
             resources.ApplyResources(this.btn_MainMenu_Tag, "btn_MainMenu_Tag");
             this.btn_MainMenu_Tag.Name = "btn_MainMenu_Tag";
             this.btn_MainMenu_Tag.UseVisualStyleBackColor = true;
+            this.btn_MainMenu_Tag.Click += new System.EventHandler(this.btn_MainMenu_Tag_Click);
             // 
             // btn_MainMenu_search
             // 
@@ -207,6 +211,7 @@
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmMainMenu";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMainMenu_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -105,6 +105,7 @@
             this.Controls.Add(this.lbl_TagManagerRegist_remarks);
             this.Controls.Add(this.lbl_TagManagerRegist_regist);
             this.Name = "frmTagManagerRegist";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "タグ管理画面 - 登録";
             this.ResumeLayout(false);
             this.PerformLayout();
